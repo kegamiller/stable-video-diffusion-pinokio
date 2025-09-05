@@ -1,0 +1,23 @@
+{
+  "id": "stable-video-diffusion-img2vid",
+  "name": "Stable Video Diffusion (img2vid)",
+  "description": "Generate short looping videos from a single still image using StabilityAI's Stable Video Diffusion model.",
+  "repository": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid",
+  "env": {
+    "python": "3.10",
+    "cuda": "11.8"
+  },
+  "dependencies": [
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "transformers",
+    "diffusers",
+    "accelerate",
+    "safetensors",
+    "opencv-python",
+    "Pillow"
+  ],
+  "entry": "run.py",
+  "type": "app"
+}
