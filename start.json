@@ -1,0 +1,7 @@
+{
+  "port": 7860,
+  "run": [
+    "python app.py"
+  ],
+  "open": "http://localhost:7860"
+}
